@@ -1,3 +1,5 @@
+import authActions from './authActions'
+
 export default {
-    register: () => ({type: REGISTER})
+    ...authActions
 }
